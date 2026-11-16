@@ -96,9 +96,9 @@ section h3 {
 
 .participants-section li {
   padding: 2px 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 32px;
   align-items: center;
-  justify-content: space-between;
   gap: 10px;
 }
 
